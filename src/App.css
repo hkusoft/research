@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -8,9 +8,21 @@
 }
 
 .App-header {
-  background-color: #222;
+  /* background-color: #222; */
+  /* background-image: url('https://t3.ftcdn.net/jpg/01/94/88/58/240_F_194885827_PXWcF4afmiTmQY9IOHNaXapdBO4JHL7X.jpg');
+  background-repeat: repeat, no-repeat; */
+
+  background: #00d2ff;
+  /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 150px;
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 
