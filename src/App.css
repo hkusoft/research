@@ -1,5 +1,5 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 .App-logo {
@@ -8,10 +8,6 @@
 }
 
 .App-header {
-  /* background-color: #222; */
-  /* background-image: url('https://t3.ftcdn.net/jpg/01/94/88/58/240_F_194885827_PXWcF4afmiTmQY9IOHNaXapdBO4JHL7X.jpg');
-  background-repeat: repeat, no-repeat; */
-
   background: #00d2ff;
   /* fallback for old browsers */
 
@@ -27,14 +23,22 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2.8em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .App-intro {
   font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

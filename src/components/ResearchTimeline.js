@@ -10,7 +10,7 @@ import SchoolIcon from "material-ui-icons/School";
 class ResearchTimeline extends Component {
   render() {
     return (
-      <div style= { {marginTop: 180}} >
+      <div >
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
